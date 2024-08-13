@@ -1,0 +1,1 @@
+docker-compose exec kafka kafka-console-consumer --topic game-events --from-beginning --bootstrap-server localhost:9092

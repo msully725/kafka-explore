@@ -1,0 +1,34 @@
+#
+# Copilot Chat generated gitignore
+#
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore Docker-related files
+docker-compose.override.yml
+docker-compose.override.yaml
+.env
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore shell history files
+.history

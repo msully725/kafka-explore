@@ -1,0 +1,2 @@
+docker exec -it $(docker ps --filter ancestor=confluentinc/cp-kafka --format "{{.ID}}") \
+  kafka-topics --create --topic game-events --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1

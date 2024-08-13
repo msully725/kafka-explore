@@ -1,0 +1,1 @@
+docker-compose exec kafka kafka-console-producer --topic game-events --bootstrap-server localhost:9092
